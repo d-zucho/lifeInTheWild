@@ -1,0 +1,26 @@
+
+h1 {
+	font-family: cursive, "alexa-std", fantasy;
+	font-size: 3em;
+	border-right: 2px solid pink;
+	border-bottom: 2px solid pink;
+	width: 400px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.2)
+}
